@@ -4,11 +4,10 @@ slug: /about
 title: 
 ---
 
-The Dataviewer Scratch Extension was developed by Cassia Fernandez and João Adriano Freitas.
+The PlayData Scratch Extension was developed by Cassia Fernandez and João Adriano Freitas.
 
-If you are using this extension and you want to share your project or thoughts with us, please contact us.
+If you are using PlayData and want to share your project, thoughts or suggestions with us, please contact us.
 
-See more examples at https://jaafreitas.github.io/scratch/
 
 ------
 
