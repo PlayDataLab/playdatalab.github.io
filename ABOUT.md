@@ -6,7 +6,7 @@ title:
 
 The PlayData Scratch Extension was developed by Cassia Fernandez and João Adriano Freitas.
 
-If you are using PlayData and want to share your project, thoughts or suggestions with us, please contact us.
+If you are using PlayData and want to share your project, thoughts or suggestions with us, please contact us at cassia.fernandez@usp.br.
 
 
 ------
