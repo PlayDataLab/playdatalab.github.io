@@ -9,6 +9,8 @@ featuredImage: /assets/earthquakes_globe.jpg
 
 ![earthquakes sample project](assets/data-viewer.jpg)
 
+<img src="https://playdatalab.github.io/assets/data-viewer.jpg" width="48">
+
 ## [Open the project](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
 
 The dataset used for this project includes the magnitude, depth, latitude, longitude and day/year of earthquakes with magnitude > 6 recorded in the last century. 
