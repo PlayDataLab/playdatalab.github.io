@@ -9,18 +9,7 @@ featuredImage: /assets/global_warming.jpg
 
 ## [Open the project](https://jaafreitas.github.io/scratch-dataviewer/?project_url=/scratch/GlobalWarming.sb3)
 
-Dataset includes
-
-* Bla
-
-![]()
-
-Dataset:
-
-Sources: 
-
-
-### Related projects
+The project shows how the temperature of the Earth changed over the last century.
 
 
 
