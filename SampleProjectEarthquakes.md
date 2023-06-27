@@ -7,9 +7,7 @@ description: example-earthquakes
 featuredImage: /assets/earthquakes_globe.jpg
 ---
 
-![earthquakes sample project](assets/data-viewer.jpg)
-
-<img src="https://playdatalab.github.io/assets/data-viewer.jpg" width="48">
+<img src="https://playdatalab.github.io/assets/data-viewer.jpg" width="200">
 
 ## [Open the project](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
 
