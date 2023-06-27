@@ -7,7 +7,9 @@ description: example-earthquakes
 featuredImage: /assets/earthquakes_globe.jpg
 ---
 
-## [Open the project](https://jaafreitas.github.io/scratch-dataviewer/?project_url=/scratch/EarthquakesAroundGlobe.sb3)
+![earthquakes sample project](assets/data-viewer.jpg)
+
+## [Open the project](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
 
 The dataset used for this project includes the magnitude, depth, latitude, longitude and day/year of earthquakes with magnitude > 6 recorded in the last century. 
 ![]()
