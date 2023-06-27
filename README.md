@@ -10,7 +10,9 @@ cta:
 ---
 Play with your data 
 
-Get started with the [resource cards](https://drive.google.com/file/d/1p-KO2LhKnIcrXcj49jCbrB8zGtlXis6N/view?usp=drive_link)
+Get started with the [resource cards](https://docs.google.com/presentation/d/15Jf-HyuaVomNzCEYm89R8vfnGuoGCJ7yqpuK_OiLx7s/edit#slide=id.gccf60d3932_0_46)
+
+
 
 # Sample projects
 
