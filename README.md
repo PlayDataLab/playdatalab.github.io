@@ -11,3 +11,8 @@ cta:
 Play with your data 
 
 Get started with the [resource cards](https://drive.google.com/file/d/1p-KO2LhKnIcrXcj49jCbrB8zGtlXis6N/view?usp=drive_link)
+
+# Sample projects
+
+<img src="https://playdatalab.github.io/assets/data-viewer.jpg" width="200">
+## [Open the project](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
