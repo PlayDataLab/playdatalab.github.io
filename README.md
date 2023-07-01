@@ -14,7 +14,24 @@ Get started with the [resource cards](https://docs.google.com/presentation/d/15J
 
 
 
-# Sample projects
+## Sample projects ↓
 
-<img src="https://playdatalab.github.io/assets/data-viewer.jpg" width="200">
-## [Open the project](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
+[<img src="https://playdatalab.github.io/assets/earthquakes_depth.jpg" width="200">](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
+##### [Earthquakes by depth](https://playdatalab.github.io/editor/?project_url=/projects/earthquakes_scatterplot.sb3)
+
+</br>
+
+[<img src="https://playdatalab.github.io/assets/earthquakes_globe.jpg" width="200">](https://playdatalab.github.io/editor/?project_url=/projects/Earthquakes_map.sb3)
+##### [Earthquakes around the globe](https://playdatalab.github.io/editor/?project_url=/projects/Earthquakes_map.sb3)
+
+</br>
+
+[<img src="https://playdatalab.github.io/assets/births_brazil.png" width="200">](https://playdatalab.github.io/editor/?project_url=/projects/births_brazil_region_202307.sb3)
+##### [Births in Brazil](https://playdatalab.github.io/editor/?project_url=/projects/births_brazil_region_202307.sb3)
+
+</br>
+
+[<img src="https://playdatalab.github.io/assets/nobel_pyramid.png" width="200">](https://playdatalab.github.io/editor/?project_url=/projects/nobelprize_piramyd_202307.sb3)
+##### [Nobel prize by gender](https://playdatalab.github.io/editor/?project_url=/projects/nobelprize_piramyd_202307.sb3)
+
+
