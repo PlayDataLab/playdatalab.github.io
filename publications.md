@@ -6,6 +6,8 @@ subtitle:
 
 Here you can find selected publications connected to PlayData: 
 
+Fernandez, C., Freitas, J. A., Blikstein, P., & de Deus Lopes, R. (2025). The design space of visualization tools for data science education: Literature review and framework for future designs. _International Journal of Child-Computer Interaction_, 43, 100698.
+
 Cassia Fernandez, Roseli De Deus Lopes, and Paulo Blikstein. 2023. Programming Representations: Uncovering the Process of Constructing Data Visualizations in a Block-based Programming Environment. In _Proceedings of the 2023 Symposium on Learning, Design and Technology (LDT '23)._ Association for Computing Machinery, New York, NY, USA, 11–20. https://doi.org/10.1145/3594781.3594783
 
 Cassia Fernandez, João Adriano Freitas, Paulo Blikstein, and Roseli de Deus Lopes. 2023. PlayData: Expressive data visualization through block-based programming In _Proceedings of the 17th International Conference of the Learning Sciences-ICLS 2023._  International Society of the Learning Sciences.
