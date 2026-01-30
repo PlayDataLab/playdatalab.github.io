@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>PlayData</title>
+
+  
+  <meta name="author" content="PlayData was created by Cassia Fernandez and João Adriano Freitas">
+  
+
+  <meta name="description" content="PlayData
+    
+      Ambiente de programação em blocos para visualização de dados
+    
+    
+      
+        Abrir o editor
+      
+    
+    
+      
+    
+  
+  
+    ↓">
+
+  
+
+  
+
+  
+
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2H2S4BHNQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2H2S4BHNQR');
+</script>
+
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+      <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+      <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="PlayData">
+  <meta property="og:title" content="PlayData">
+  <meta property="og:description" content="PlayData
+    
+      Ambiente de programação em blocos para visualização de dados
+    
+    
+      
+        Abrir o editor
+      
+    
+    
+      
+    
+  
+  
+    ↓">
+
+  
+  <meta property="og:image" content="http://localhost:4000/assets/img/avatar-icon.png">
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/pt/">
+  <link rel="canonical" href="http://localhost:4000/pt/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="PlayData">
+  <meta property="twitter:description" content="PlayData
+    
+      Ambiente de programação em blocos para visualização de dados
+    
+    
+      
+        Abrir o editor
+      
+    
+    
+      
+    
+  
+  
+    ↓">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/avatar-icon.png">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">PlayData</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://playdatalab.github.io/editor">Experimente</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recursos</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/pt/comecando">Começando</a>
+                  <a class="dropdown-item" href="/pt/cartoes-recursos">Cartões PlayData</a>
+                  <a class="dropdown-item" href="/pt/publicacoes">Publicações</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/pt/sobre">Sobre</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li>
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    PT
+  </a>
+  <div class="dropdown-menu dropdown-menu-right">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a class="dropdown-item lang-option " 
+       href="/en/">
+      English
+    </a>
+    <a class="dropdown-item lang-option active" 
+       href="/pt/">
+      Português
+    </a>
+  </div>
+</li>
+
+<style>
+.dropdown-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.dropdown-item.lang-option {
+  white-space: nowrap;
+  min-width: 110px;
+  text-align: left;  
+  font-size: 0.8rem; 
+}
+
+.navbar-nav {
+  padding-right: 30px;
+}
+</style>
+
+
+    </ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.png" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Começando", \
+          "desc"     : "Começando", \
+          "category" : "resources", \
+          "url"      : "/pt/blog/2023/08/23/getting-started/", \
+          "date"     : "August 23, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Como começar", \
+          "desc"     : "Como começar", \
+          "category" : "resources", \
+          "url"      : "/pt/blog/2023/08/23/como-comecar/", \
+          "date"     : "August 23, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Terremotos ao redor do globo", \
+          "desc"     : "Terremotos ao redor do globo", \
+          "category" : "sample projects", \
+          "url"      : "/pt/blog/2023/08/23/Earthquakes-around-the-globe/", \
+          "date"     : "August 23, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Earthquakes around the globe", \
+          "desc"     : "Earthquakes around the globe", \
+          "category" : "sample projects", \
+          "url"      : "/en/blog/2023/08/23/Earthquakes-around-the-globe/", \
+          "date"     : "August 23, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Aquecimento Global", \
+          "desc"     : "Aquecimento Global", \
+          "category" : "sample projects", \
+          "url"      : "/pt/blog/2023/08/22/global-warming/", \
+          "date"     : "August 22, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Terremotos por profundidade", \
+          "desc"     : "Terremotos por profundidade", \
+          "category" : "sample projects", \
+          "url"      : "/pt/blog/2023/08/22/earthquakes-depth/", \
+          "date"     : "August 22, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Global Warming", \
+          "desc"     : "Global Warming", \
+          "category" : "sample projects", \
+          "url"      : "/en/blog/2023/08/22/global-warming/", \
+          "date"     : "August 22, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Earthquakes by depth", \
+          "desc"     : "Earthquakes by depth", \
+          "category" : "sample projects", \
+          "url"      : "/en/blog/2023/08/22/earthquakes-depth/", \
+          "date"     : "August 22, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Vencedores do prêmio Nobel", \
+          "desc"     : "Vencedores do prêmio Nobel", \
+          "category" : "sample projects", \
+          "url"      : "/pt/blog/2023/01/01/nobel-prize/", \
+          "date"     : "January  1, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Nobel prize winners", \
+          "desc"     : "Nobel prize winners", \
+          "category" : "sample projects", \
+          "url"      : "/en/blog/2023/01/01/nobel-prize/", \
+          "date"     : "January  1, 2023" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "About PlayData", \
+          "desc"     : "About PlayData", \
+          "category" : "page", \
+          "url"      : "/en/about/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Cartões PlayData", \
+          "desc"     : "Cartões PlayData", \
+          "category" : "resources", \
+          "url"      : "/pt/cartoes-recursos/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Começando", \
+          "desc"     : "Começando", \
+          "category" : "recursos", \
+          "url"      : "/pt/comecando/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Getting started", \
+          "desc"     : "Getting started", \
+          "category" : "resources", \
+          "url"      : "/en/getting-started/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "desc"     : "", \
+          "category" : "page", \
+          "url"      : "/pt/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "desc"     : "", \
+          "category" : "page", \
+          "url"      : "/en/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "desc"     : "", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Publicações", \
+          "desc"     : "Publicações", \
+          "category" : "page", \
+          "url"      : "/pt/publicacoes/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Publications", \
+          "desc"     : "Publications", \
+          "category" : "page", \
+          "url"      : "/en/publications/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "PlayData cards", \
+          "desc"     : "PlayData cards", \
+          "category" : "resources", \
+          "url"      : "/en/resource-cards/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Sobre o PlayData", \
+          "desc"     : "Sobre o PlayData", \
+          "category" : "page", \
+          "url"      : "/pt/sobre/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "", \
+          "desc"     : "", \
+          "category" : "page", \
+          "url"      : "/page2/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+<div class="intro-header"></div>
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">PlayData</h1>
+    <p class="hero-description">
+      Ambiente de programação em blocos para visualização de dados
+    </p>
+    <div class="hero-buttons">
+      <a href="https://playdatalab.github.io/editor" class="btn-primary">
+        Abrir o editor
+      </a>
+    </div>
+    <div class="demo-img">
+      <img src="/assets/img/demo.png" alt="PlayData Demo">
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>↓</span>
+  </div>
+</div>
+
+<style>
+
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+.hero-section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px 60px 20px;
+  background: white;
+  color: #333;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  background:#6bc0af;;
+  color: white;
+  box-shadow: 0 4px 15px #6bc0af;;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px #6bc0af;;
+  color: white;
+  text-decoration: none;
+  background: #6bc0af;;
+}
+
+.scroll-indicator {
+  margin-top: 40px;
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+  opacity: 0.5;
+  color: #6bc0af;;
+}
+
+.demo-img {
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+@media (max-width: 768px) {
+  .hero-title { font-size: 2.5rem; }
+  .hero-description { font-size: 1.2rem; }
+}
+</style>
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+      
+      <p class="copyright text-muted">
+      
+        PlayData was created by Cassia Fernandez and João Adriano Freitas
+        &nbsp;&bull;&nbsp;
+      
+      2026
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

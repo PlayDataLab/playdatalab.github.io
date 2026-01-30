@@ -12,7 +12,12 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      {%- for link in site.navbar-links -%}
+      {%- if page.lang == 'pt' -%}
+        {%- assign navbar_links = site.navbar-links-pt -%}
+      {%- else -%}
+        {%- assign navbar_links = site.navbar-links-en -%}
+      {%- endif -%}
+      {%- for link in navbar_links -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
@@ -38,6 +43,8 @@
           </a>
         </li>
       {%- endif -%}
+      {% include lang-switcher.html %}
+
     </ul>
   </div>
 

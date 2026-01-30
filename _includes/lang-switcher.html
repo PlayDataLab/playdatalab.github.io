@@ -1,0 +1,49 @@
+{% if page.lang %}
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {% if page.lang == 'pt' %}PT{% else %}EN{% endif %}
+  </a>
+  <div class="dropdown-menu dropdown-menu-right">
+    {% comment %}
+    Procura pela página equivalente em inglês usando o ref
+    {% endcomment %}
+    {% assign pages_en = site.pages | where: "lang", "en" | where: "ref", page.ref %}
+    {% assign posts_en = site.posts | where: "lang", "en" | where: "ref", page.ref %}
+    {% assign en_page = pages_en.first | default: posts_en.first %}
+    
+    {% comment %}
+    Procura pela página equivalente em português usando o ref
+    {% endcomment %}
+    {% assign pages_pt = site.pages | where: "lang", "pt" | where: "ref", page.ref %}
+    {% assign posts_pt = site.posts | where: "lang", "pt" | where: "ref", page.ref %}
+    {% assign pt_page = pages_pt.first | default: posts_pt.first %}
+    
+    <a class="dropdown-item lang-option {% if page.lang == 'en' %}active{% endif %}" 
+       href="{% if en_page %}{{ en_page.url }}{% else %}/en/{% endif %}">
+      English
+    </a>
+    <a class="dropdown-item lang-option {% if page.lang == 'pt' %}active{% endif %}" 
+       href="{% if pt_page %}{{ pt_page.url }}{% else %}/pt/{% endif %}">
+      Português
+    </a>
+  </div>
+</li>
+
+<style>
+.dropdown-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.dropdown-item.lang-option {
+  white-space: nowrap;
+  min-width: 110px;
+  text-align: left;  
+  font-size: 0.8rem; 
+}
+
+.navbar-nav {
+  padding-right: 30px;
+}
+</style>
+{% endif %}

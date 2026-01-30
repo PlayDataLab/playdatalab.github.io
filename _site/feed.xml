@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>PlayData</title>
+    
+    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Começando</title>
+        <description>
+          
+          O que é PlayData? O PlayData foi desenvolvido como uma modificação do Scratch 3.0, voltado para alunos do ensino fundamental e médio. PlayData procura apoiar os alunos na compreensão dos dados através da criação de representações pessoais, aproveitando o poder e a flexibilidade oferecidos pela linguagem de programação Scratch. A...
+        </description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pt/blog/2023/08/23/getting-started/</link>
+        <guid isPermaLink="true">http://localhost:4000/pt/blog/2023/08/23/getting-started/</guid>
+      </item>
+    
+      <item>
+        <title>Como começar</title>
+        <description>
+          
+          O que é o PlayData? PlayData was developed as a Scratch 3.0 modification, targeted at middle and high school students. PlayData seeks to support learners in making sense of data through the creation of personal representations, taking advantage of the power and flexibility offered by the Scratch programming language. The...
+        </description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pt/blog/2023/08/23/como-comecar/</link>
+        <guid isPermaLink="true">http://localhost:4000/pt/blog/2023/08/23/como-comecar/</guid>
+      </item>
+    
+      <item>
+        <title>Terremotos ao redor do globo</title>
+        <description>
+          
+          Mapa dos terremotos do século passado
+
+Dê uma olhada no projeto e remixe-ohere
+
+
+
+
+
+
+        </description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pt/blog/2023/08/23/Earthquakes-around-the-globe/</link>
+        <guid isPermaLink="true">http://localhost:4000/pt/blog/2023/08/23/Earthquakes-around-the-globe/</guid>
+      </item>
+    
+      <item>
+        <title>Earthquakes around the globe</title>
+        <description>
+          
+          Map of earthquakes in the past century
+
+Take a look at the project and remix it here
+
+
+
+
+
+
+        </description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/en/blog/2023/08/23/Earthquakes-around-the-globe/</link>
+        <guid isPermaLink="true">http://localhost:4000/en/blog/2023/08/23/Earthquakes-around-the-globe/</guid>
+      </item>
+    
+      <item>
+        <title>Aquecimento Global</title>
+        <description>
+          
+          Temperatura média ao longo dos anos
+
+Dê uma olhada no projeto e remixe-ohere
+
+
+
+
+
+        </description>
+        <pubDate>Tue, 22 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pt/blog/2023/08/22/global-warming/</link>
+        <guid isPermaLink="true">http://localhost:4000/pt/blog/2023/08/22/global-warming/</guid>
+      </item>
+    
+      <item>
+        <title>Terremotos por profundidade</title>
+        <description>
+          
+          Obras de arte baseadas na profundidade dos terremotos do século passado
+
+Dê uma olhada no projeto e remixe-ohere
+
+
+
+
+
+
+        </description>
+        <pubDate>Tue, 22 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pt/blog/2023/08/22/earthquakes-depth/</link>
+        <guid isPermaLink="true">http://localhost:4000/pt/blog/2023/08/22/earthquakes-depth/</guid>
+      </item>
+    
+      <item>
+        <title>Global Warming</title>
+        <description>
+          
+          Average temperature over the years
+
+Take a look at the project and remix it here
+
+
+
+
+
+        </description>
+        <pubDate>Tue, 22 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/en/blog/2023/08/22/global-warming/</link>
+        <guid isPermaLink="true">http://localhost:4000/en/blog/2023/08/22/global-warming/</guid>
+      </item>
+    
+      <item>
+        <title>Earthquakes by depth</title>
+        <description>
+          
+          Artwork based on the depth of earthquakes over the past century
+
+Take a look at the project and remix it here
+
+
+
+
+
+
+        </description>
+        <pubDate>Tue, 22 Aug 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/en/blog/2023/08/22/earthquakes-depth/</link>
+        <guid isPermaLink="true">http://localhost:4000/en/blog/2023/08/22/earthquakes-depth/</guid>
+      </item>
+    
+      <item>
+        <title>Vencedores do prêmio Nobel</title>
+        <description>
+          
+          Gráfico de barras com ganhadores do Prêmio Nobel por gênero, ao longo dos anos
+
+Dê uma olhada no projeto e remixe-ohere
+
+
+
+
+
+        </description>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pt/blog/2023/01/01/nobel-prize/</link>
+        <guid isPermaLink="true">http://localhost:4000/pt/blog/2023/01/01/nobel-prize/</guid>
+      </item>
+    
+      <item>
+        <title>Nobel prize winners</title>
+        <description>
+          
+          Bar chart with Nobel Prize winners by gender, over the years
+
+Take a look at the project and remix it here
+
+
+
+
+
+        </description>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/en/blog/2023/01/01/nobel-prize/</link>
+        <guid isPermaLink="true">http://localhost:4000/en/blog/2023/01/01/nobel-prize/</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -19,19 +19,23 @@ author: PlayData was created by Cassia Fernandez and João Adriano Freitas
 # --- List of links in the navigation bar --- #
 ###############################################
 
-navbar-links:
+navbar-links-en:
   Try it: "https://playdatalab.github.io/editor"
   Resources:
-    - Getting started: "getting-started"
-    - PlayData cards: "resource-cards"
-    - Publications: "publications"
-  About: "about"
-  #Author's home: "https://deanattali.com"
+    - Getting started: "en/getting-started"
+    - PlayData cards: "en/resource-cards"
+    - Publications: "en/publications"
+  About: "en/about"
 
-################
-# --- Logo --- #
-################
+navbar-links-pt:
+  Experimente: "https://playdatalab.github.io/editor"
+  Recursos:
+    - Começando: "pt/comecando"
+    - Cartões PlayData: "pt/cartoes-recursos"
+    - Publicações: "pt/publicacoes"
+  Sobre: "pt/sobre"
 
+  
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/avatar-icon.png"
@@ -296,3 +300,30 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+# Language configurations
+languages: ["en", "pt"]
+default_lang: "en"
+exclude_from_localization: ["assets", "projects"]
+
+# Posts/Language configurations
+defaults:
+  - scope:
+      path: "_posts/en"
+      type: "posts"
+    values:
+      permalink: /en/blog/:year/:month/:day/:title/
+      lang: en
+  - scope:
+      path: "_posts/pt"
+      type: "posts"
+    values:
+      permalink: /pt/blog/:year/:month/:day/:title/
+      lang: pt
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "pt"
+    values:
+      lang: pt

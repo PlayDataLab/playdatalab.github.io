@@ -1,0 +1,15 @@
+<script>
+(function() {
+  var userLang = navigator.language || navigator.userLanguage;
+  var langCode = userLang.substring(0, 2).toLowerCase();
+  var currentPath = window.location.pathname;
+  
+  if (currentPath === '/' || currentPath === '/index.html') {
+    if (langCode === 'pt') {
+      window.location.replace('/pt/');
+    } else {
+      window.location.replace('/en/');
+    }
+  }
+})();
+</script>

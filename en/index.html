@@ -1,0 +1,116 @@
+---
+layout: page
+lang: en
+ref: home
+---
+
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">PlayData</h1>
+    <p class="hero-description">
+      Expressive data visualization through block-based programming
+    </p>
+    <div class="hero-buttons">
+      <a href="https://playdatalab.github.io/editor" class="btn-primary">
+        Launch Editor
+      </a>
+    </div>
+    <div class="demo-img">
+      <img src="{{ '/assets/img/demo.png' | relative_url }}" alt="PlayData Demo">
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>↓</span>
+  </div>
+</div>
+
+<style>
+
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.hero-section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px 20px 60px 20px;
+  background: white;
+  color: #333;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  background:#6bc0af;;
+  color: white;
+  box-shadow: 0 4px 15px #6bc0af;;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px #6bc0af;;
+  color: white;
+  text-decoration: none;
+  background: #6bc0af;;
+}
+
+.scroll-indicator {
+  margin-top: 40px;
+  font-size: 2rem;
+  animation: bounce 2s infinite;
+  opacity: 0.5;
+  color: #6bc0af;;
+}
+
+.demo-img {
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+@media (max-width: 768px) {
+  .hero-title { font-size: 2.5rem; }
+  .hero-description { font-size: 1.2rem; }
+}
+</style>
